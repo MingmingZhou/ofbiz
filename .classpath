@@ -128,6 +128,18 @@
 	<classpathentry kind="lib" path="framework/webapp/lib/json-lib-2.2.3-jdk15.jar"/>
 	<classpathentry kind="lib" path="framework/webapp/lib/rome-0.9.jar"/>
 	<classpathentry kind="lib" path="framework/webapp/lib/velocity-1.6.1.jar"/>
+	<classpathentry kind="lib" path="hot-deploy/restcomponent/lib/activation-1.1.jar"/>
+	<classpathentry kind="lib" path="hot-deploy/restcomponent/lib/commons-lang-2.3.jar"/>
+	<classpathentry kind="lib" path="hot-deploy/restcomponent/lib/geronimo-jaxrs_1.1_spec-1.0.jar"/>
+	<classpathentry kind="lib" path="hot-deploy/restcomponent/lib/jaxb-api-2.2.jar"/>
+	<classpathentry kind="lib" path="hot-deploy/restcomponent/lib/jaxb-impl-2.2.1.1.jar"/>
+	<classpathentry kind="lib" path="hot-deploy/restcomponent/lib/slf4j-api-1.6.1.jar"/>
+	<classpathentry kind="lib" path="hot-deploy/restcomponent/lib/slf4j-simple-1.6.1.jar"/>
+	<classpathentry kind="lib" path="hot-deploy/restcomponent/lib/stax-api-1.0-2.jar"/>
+	<classpathentry kind="lib" path="hot-deploy/restcomponent/lib/wink-1.4.jar"/>
+	<classpathentry kind="lib" path="hot-deploy/restcomponent/lib/wink-client-1.4.jar"/>
+	<classpathentry kind="lib" path="hot-deploy/restcomponent/lib/wink-common-1.4.jar"/>
+	<classpathentry kind="lib" path="hot-deploy/restcomponent/lib/wink-server-1.4.jar"/>
 	<classpathentry excluding="org/ofbiz/accounting/thirdparty/cybersource/**|org/ofbiz/accounting/thirdparty/verisign/**|org/ofbiz/accounting/thirdparty/worldpay/**|org/ofbiz/accounting/thirdparty/paypal/PayPalServices.java|org/ofbiz/accounting/thirdparty/orbital/**|org/ofbiz/accounting/thirdparty/securepay/**|org/ofbiz/accounting/thirdparty/ideal/**" kind="src" path="applications/accounting/src"/>
 	<classpathentry kind="src" path="hot-deploy/restcomponent/src"/>
 	<classpathentry excluding="org/ofbiz/content/openoffice/|org/ofbiz/content/report/" kind="src" path="applications/content/src"/>
@@ -160,17 +172,5 @@
 	<classpathentry kind="src" path="framework/widget/src"/>
 	<classpathentry kind="src" path="specialpurpose/ecommerce/src"/>
 	<classpathentry exported="true" kind="con" path="GROOVY_DSL_SUPPORT"/>
-	<classpathentry kind="lib" path="hot-deploy/restcomponent/lib/activation-1.1.jar"/>
-	<classpathentry kind="lib" path="hot-deploy/restcomponent/lib/commons-lang-2.3.jar"/>
-	<classpathentry kind="lib" path="hot-deploy/restcomponent/lib/geronimo-jaxrs_1.1_spec-1.0.jar"/>
-	<classpathentry kind="lib" path="hot-deploy/restcomponent/lib/jaxb-api-2.2.jar"/>
-	<classpathentry kind="lib" path="hot-deploy/restcomponent/lib/jaxb-impl-2.2.1.1.jar"/>
-	<classpathentry kind="lib" path="hot-deploy/restcomponent/lib/slf4j-api-1.6.1.jar"/>
-	<classpathentry kind="lib" path="hot-deploy/restcomponent/lib/slf4j-simple-1.6.1.jar"/>
-	<classpathentry kind="lib" path="hot-deploy/restcomponent/lib/stax-api-1.0-2.jar"/>
-	<classpathentry kind="lib" path="hot-deploy/restcomponent/lib/wink-1.4.jar"/>
-	<classpathentry kind="lib" path="hot-deploy/restcomponent/lib/wink-client-1.4.jar"/>
-	<classpathentry kind="lib" path="hot-deploy/restcomponent/lib/wink-common-1.4.jar"/>
-	<classpathentry kind="lib" path="hot-deploy/restcomponent/lib/wink-server-1.4.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
